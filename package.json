@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "node src/server.js",
     "tunnel": "ngrok http 3333",
-    "dev:tunnel": "concurrently \"npm run dev\" \"npm run tunnel\""
+    "dev:tunnel": "concurrently \"npm run dev\" \"npm run tunnel\"",
+    "start": "node src/server.js"
   },
   "keywords": [],
   "author": "",
